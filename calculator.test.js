@@ -83,7 +83,7 @@ describe("valid decimals", () => {
 
     //Testing Clear All Field
     describe("clear display when AC button pressed", () => {
-        test("clear display", () => {
+        test("checks that all fields are zero", () => {
         expect(() => {
             expect(clearAllfields()).toBe(0);
         });
